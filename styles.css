@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    margin: 2px;
+    padding: 30px;
+    font-size: large;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 550px;
+    font-style: italic;
+    color: deepskyblue;
+    text-align: center;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 30px;
+    border: 5px dotted green;
+    width: 100%;
+    margin: 2px auto;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 25%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px double;
+    border-radius: 3px;
+}
+
+button {
+    width: 30%;
+    background-color: lavender;
+    color: navy;
+    margin: 9px auto;
+    padding: 10px;
+    border: 2px dashed grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
